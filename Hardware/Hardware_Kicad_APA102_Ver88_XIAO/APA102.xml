@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\shoot\Google ドライブ\Kicad\APA102\Hardware_Kicad_APA102_Ver2\APA102.sch</source>
+    <date>2019/08/05 10:16:48</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>APA102.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DC9D1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DD250</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DE2A1</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DF38D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E0A32</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E176C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E2378</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8ECEC4</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8ECECA</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8ECED0</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8ECED6</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>APA102C</value>
+      <footprint>LED_SMD:LED_RGB_5050-6</footprint>
+      <datasheet>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</datasheet>
+      <libsource lib="LED" part="APA102-2020" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8ECEDC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>JQ4:04JQST</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2C454</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA35914</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="APA102-2020">
+      <description>RGB LED with integrated controller</description>
+      <docs>http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf</docs>
+      <footprints>
+        <fp>LED*APA102*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">APA102-2020</field>
+        <field name="Footprint">LED_SMD:LED-APA102-2020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CKO" type="output"/>
+        <pin num="3" name="SDO" type="output"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="CKI" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D10" pin="6"/>
+      <node ref="D9" pin="6"/>
+      <node ref="D8" pin="6"/>
+      <node ref="D3" pin="6"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D1" pin="6"/>
+      <node ref="D2" pin="6"/>
+      <node ref="D7" pin="6"/>
+      <node ref="D12" pin="6"/>
+      <node ref="D6" pin="6"/>
+      <node ref="D5" pin="6"/>
+      <node ref="D4" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D11" pin="6"/>
+    </net>
+    <net code="2" name="Net-(D10-Pad5)">
+      <node ref="D10" pin="5"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D10-Pad3)">
+      <node ref="D10" pin="3"/>
+      <node ref="D11" pin="4"/>
+    </net>
+    <net code="4" name="Net-(D10-Pad2)">
+      <node ref="D11" pin="5"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D11-Pad3)">
+      <node ref="D12" pin="4"/>
+      <node ref="D11" pin="3"/>
+    </net>
+    <net code="6" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="5"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad4)">
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad5)">
+      <node ref="J1" pin="3"/>
+      <node ref="D1" pin="5"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="D6" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D12-Pad3)">
+      <node ref="D12" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D10-Pad4)">
+      <node ref="D10" pin="4"/>
+      <node ref="D9" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+      <node ref="D6" pin="4"/>
+    </net>
+    <net code="14" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="5"/>
+    </net>
+    <net code="15" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="5"/>
+    </net>
+    <net code="16" name="Net-(D7-Pad3)">
+      <node ref="D8" pin="4"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="17" name="Net-(D6-Pad3)">
+      <node ref="D7" pin="4"/>
+      <node ref="D6" pin="3"/>
+    </net>
+    <net code="18" name="Net-(D6-Pad2)">
+      <node ref="D7" pin="5"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="5"/>
+    </net>
+    <net code="20" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="5"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D8-Pad3)">
+      <node ref="D8" pin="3"/>
+      <node ref="D9" pin="4"/>
+    </net>
+    <net code="23" name="Net-(D3-Pad2)">
+      <node ref="D4" pin="5"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3"/>
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad2)">
+      <node ref="D3" pin="5"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D4-Pad2)">
+      <node ref="D5" pin="5"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D4-Pad3)">
+      <node ref="D5" pin="4"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3"/>
+      <node ref="D4" pin="4"/>
+    </net>
+  </nets>
+</export>

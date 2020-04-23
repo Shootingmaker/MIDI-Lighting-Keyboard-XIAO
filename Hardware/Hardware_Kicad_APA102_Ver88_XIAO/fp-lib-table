@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name JQ4)(type KiCad)(uri "C:/Users/shoot/Google ドライブ/Kicad/APA102/Hardware_Kicad_APA102_Ver2")(options "")(descr ""))
+  (lib (name Hardware_Kicad_APA102_Ver88)(type KiCad)(uri "C:/Users/shoot/Google ドライブ/Kicad/APA102/Hardware_Kicad_APA102_Ver88")(options "")(descr ""))
+)
