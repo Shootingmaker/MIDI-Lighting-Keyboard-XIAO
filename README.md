@@ -2,7 +2,6 @@
 This repository for like this video.
 https://www.youtube.com/watch?v=D2VWIVyrJ5M&feature=youtu.be
 
-
 1.[Board setting]
 File ->>> Enviroment ->>> add URL
 https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
@@ -11,7 +10,6 @@ https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
 Board : Seed Studio XIAO
 USB stack : Arduino
 Debug:off
-
 
 2.[Library Install]
 FastLED 3.3.3 "5kft" fork.
@@ -29,7 +27,6 @@ https://github.com/lathoub/Arduino-USBMIDI
 MIDIUSB
 Tools -> Library manager.
 https://github.com/arduino-libraries/MIDIUSB
-
 
 3.[Over write "buffer memory" & "RunningStatus" setting.]
  
