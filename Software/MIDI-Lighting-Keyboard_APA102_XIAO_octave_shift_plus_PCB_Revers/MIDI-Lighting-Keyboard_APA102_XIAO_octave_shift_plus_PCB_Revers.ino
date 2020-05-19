@@ -44,12 +44,13 @@ https://github.com/arduino-libraries/MIDIUSB
 
 -----------------------------------------------------------------------------*/
 #include <USB-MIDI.h>
-static  const  unsigned SysExMaxSize = 28672 ;  //1024*28K
+static  const  unsigned SysExMaxSize = 1024*24 ;  //1024*24K
 static  const  bool UseRunningStatus = true ; 
 USBMIDI_CREATE_DEFAULT_INSTANCE();
 
 int FastLEDSet_Ch[128];          // Map of Who(channel) use LED?
-int octave_shift= 0 *12;           // Shift Octave, if few LEDs. 1octave=12LEDs.
+int octave_shift= 2 *12;           // Shift Octave, if few LEDs. "1"octave=12LEDs.
+int Reverse = 127+5 ;
 
 // -----------------------------------------------------------------------------
 #include <FastLED.h>
@@ -79,68 +80,68 @@ void handleNoteOn(byte channel, byte pitch, byte velocity)
   } else {
     switch (channel) {  //  Select Ch       //　Blink velocity power!
       case 1:
-        leds[pitch-octave_shift] = 0x008000;
-        FastLEDSet_Ch[pitch-octave_shift]=1;
+        leds[Reverse-pitch-octave_shift] = 0x008000;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=1;
         break;
       case 2:
-        leds[pitch-octave_shift] = 0x0000FF;
-        FastLEDSet_Ch[pitch-octave_shift]=2;
+        leds[Reverse-pitch-octave_shift] = 0x0000FF;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=2;
         break;
       case 3:
-        leds[pitch-octave_shift] = 0xFF0000;
-        FastLEDSet_Ch[pitch-octave_shift]=3;
+        leds[Reverse-pitch-octave_shift] = 0xFF0000;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=3;
         break;
       case 4:
-        leds[pitch-octave_shift] = 0xFFFF00;
-        FastLEDSet_Ch[pitch-octave_shift]=4;
+        leds[Reverse-pitch-octave_shift] = 0xFFFF00;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=4;
         break;
       case 5:
-        leds[pitch-octave_shift] = 0xFFA500;
-        FastLEDSet_Ch[pitch-octave_shift]=5;
+        leds[Reverse-pitch-octave_shift] = 0xFFA500;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=5;
         break;
       case 6:
-        leds[pitch-octave_shift] = 0xFF00FF;
-        FastLEDSet_Ch[pitch-octave_shift]=6;
+        leds[Reverse-pitch-octave_shift] = 0xFF00FF;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=6;
         break;
       case 7:
-        leds[pitch-octave_shift] = 0x00BFFF;
-        FastLEDSet_Ch[pitch-octave_shift]=7;
+        leds[Reverse-pitch-octave_shift] = 0x00BFFF;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=7;
         break;
       case 8:
-        leds[pitch-octave_shift] = 0xFFE4E1;
-        FastLEDSet_Ch[pitch-octave_shift]=8;
+        leds[Reverse-pitch-octave_shift] = 0xFFE4E1;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=8;
         break; 
       case 9:
-        leds[pitch-octave_shift] = 0xADFF2F;
-        FastLEDSet_Ch[pitch-octave_shift]=9;
+        leds[Reverse-pitch-octave_shift] = 0xADFF2F;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=9;
         break;
       case 10:
-        leds[pitch-octave_shift] = 0x00008B;
-        FastLEDSet_Ch[pitch-octave_shift]=10;
+        leds[Reverse-pitch-octave_shift] = 0x00008B;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=10;
         break;
       case 11:
-        leds[pitch-octave_shift] = 0x00FFFF;
-        FastLEDSet_Ch[pitch-octave_shift]=11;
+        leds[Reverse-pitch-octave_shift] = 0x00FFFF;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=11;
         break;
       case 12:
-        leds[pitch-octave_shift] = 0xF08080;
-        FastLEDSet_Ch[pitch-octave_shift]=12;
+        leds[Reverse-pitch-octave_shift] = 0xF08080;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=12;
         break;
       case 13:
-        leds[pitch-octave_shift] = 0x800080;
-        FastLEDSet_Ch[pitch-octave_shift]=13;
+        leds[Reverse-pitch-octave_shift] = 0x800080;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=13;
         break;
       case 14:
-        leds[pitch-octave_shift] = 0xB22222;
-        FastLEDSet_Ch[pitch-octave_shift]=14;
+        leds[Reverse-pitch-octave_shift] = 0xB22222;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=14;
         break;
       case 15:
-        leds[pitch-octave_shift] = 0x00BFFF;
-        FastLEDSet_Ch[pitch-octave_shift]=15;
+        leds[Reverse-pitch-octave_shift] = 0x00BFFF;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=15;
         break;
       case 16:
-        leds[pitch-octave_shift] = 0xF5F5F5;
-        FastLEDSet_Ch[pitch-octave_shift]=16;
+        leds[Reverse-pitch-octave_shift] = 0xF5F5F5;
+        FastLEDSet_Ch[Reverse-pitch-octave_shift]=16;
         break;        
     }
 
@@ -167,7 +168,7 @@ void handleNoteOff(byte channel, byte pitch, byte velocity)
     case 14:
     case 15:
     case 16:
-      leds[pitch-octave_shift].setRGB( 0, 0, 0); FastLEDSet_Ch[pitch-octave_shift]=0;
+      leds[Reverse-pitch-octave_shift].setRGB( 0, 0, 0); FastLEDSet_Ch[Reverse-pitch-octave_shift]=0;
       FastLED.show();
       break;
   }

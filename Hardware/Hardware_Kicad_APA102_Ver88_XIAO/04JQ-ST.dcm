@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 04JQ-ST
-D CONN RCPT 4POS 0.098 TIN PCB R/A
-K
-F http://www.jst-mfg.com/product/pdf/eng/eJQ.pdf
-$ENDCMP
-#
-#End Doc Library
