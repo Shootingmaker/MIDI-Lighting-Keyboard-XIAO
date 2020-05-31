@@ -41,5 +41,5 @@ https://github.com/arduino-libraries/MIDIUSB
 4.[HARDWARE Wireing to LED (SK9822 or APA102)]  
  5V    with Capacitor 100uF is Better.  
  GND   
- MOSI is  10(XIAO)  
- CLK  is  8(XIAO)  
+ SDI(Serial DATA In = MOSI) is  Pin:10(XIAO)  
+ CKI(Clock In)  is  Pin:8(XIAO)  
