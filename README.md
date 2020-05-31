@@ -1,6 +1,10 @@
 # MIDI-Lighting-Keyboard-XIAO  
-This repository for like this video. 
+  
+![Sample](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample.png) 
+  
+
 [![](https://img.youtube.com/vi/Ko7Av_kq-fI/0.jpg)](https://www.youtube.com/watch?v=Ko7Av_kq-fI)
+This repository for like this video.  
   
 1.[Board setting]  
 File ->>> Enviroment ->>> add URL  
