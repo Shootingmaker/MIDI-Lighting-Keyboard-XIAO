@@ -35,7 +35,7 @@ https://github.com/arduino-libraries/MIDIUSB
 3.[Over write "buffer memory" & "RunningStatus" setting.]  
  
  "midi_Settings.h" over write or  USE static  const  
- -> static const unsigned SysExMaxSize = 10240;  
+ -> static const unsigned SysExMaxSize = 10240;  // more is better.  
  -> static const bool UseRunningStatus = true;  
  
  
