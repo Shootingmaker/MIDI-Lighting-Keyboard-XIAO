@@ -1,10 +1,11 @@
 # MIDI-Lighting-Keyboard-XIAO  
   
-![Sample](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample.png)
-  
+ 
 This repository for like this video. 
 [![](https://img.youtube.com/vi/Ko7Av_kq-fI/0.jpg)](https://www.youtube.com/watch?v=Ko7Av_kq-fI)
- 
+  
+![Sample](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample.png) 
+  
 1.[Board setting]  
 File ->>> Enviroment ->>> add URL  
 https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json  
