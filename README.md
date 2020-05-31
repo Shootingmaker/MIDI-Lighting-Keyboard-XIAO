@@ -1,4 +1,7 @@
 # MIDI-Lighting-Keyboard-XIAO  
+  
+![Sample](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample.png)
+  
 This repository for like this video.  
 https://www.youtube.com/watch?v=D2VWIVyrJ5M&feature=youtu.be  
  
