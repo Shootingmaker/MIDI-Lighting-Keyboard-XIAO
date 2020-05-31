@@ -40,6 +40,8 @@ https://github.com/arduino-libraries/MIDIUSB
  
  
 4.[HARDWARE Wireing to LED (SK9822 or APA102)]  
+![pin](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/xiao_BB_wirering.jpg)
+  
  5V    with Capacitor 100uF is Better.  
  GND   
  SDI(Serial DATA In = MOSI) is  Pin:10(XIAO)  
