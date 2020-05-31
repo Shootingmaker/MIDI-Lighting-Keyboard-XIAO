@@ -3,7 +3,7 @@
 ![Sample](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample.png)
   
 This repository for like this video. 
-![Movie](https://github.com/Shootingmaker/MIDI-Lighting-Keyboard-XIAO/blob/master/Hardware/sample_movie.mp4)
+![Movie](https://youtu.be/Ko7Av_kq-fI)
  
 1.[Board setting]  
 File ->>> Enviroment ->>> add URL  
